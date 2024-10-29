@@ -10,7 +10,7 @@
     <h1>Random password generator</h1>
     <div class="password-container">
         <div class="input-group">
-          <label for="length">Length</label><input type="number" id="length" min="4" max="20" value="8">
+          <label for="length">Length</label><input type="number" id="length" min="4" max="20" value="4">
         </div>
         <div class="input-group">
           <label for="upper">Uppercase</label><input type="checkbox" id="upper">
@@ -25,7 +25,7 @@
           <label for="symbols">Symbols</label><input type="checkbox" id="symbols">
         </div>
         <button onclick="generatePassword()" id="generate">Generate</button>
-        <p id="password" class="password"></p>
+        <p id="password" class="password-display"></p>
       </div>
     <script src="script.js"></script>
     
